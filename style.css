@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+header h1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.input-container {
+    background-color: white;
+    width: 800px;
+    height: 190px;
+    margin: 20px auto 0px auto;
+    font-size: 20px;
+}
+
+.form-container {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.form-input-container {
+    display: inline-block;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    height: 35px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+#submit-button {
+    background-color:#008CBA; /* Green */
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 12px 0px;
+    margin-left: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #D1D1D1;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 40px auto 0px auto;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr, td {
+    background-color: white;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #008CBA;
+  color: white;
+}
+
+.status-bar {
+    cursor: pointer;
+    background-color: #f0ebebf6;
+}
+
+.delete-button {
+    background-color: rgba(255, 0, 0, 0.74); /* Green */
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding:5px 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #D1D1D1;
+}
+
+.delete-cell {
+    text-align: center;
+}
